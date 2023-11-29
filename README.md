@@ -1,1 +1,1 @@
-# VHDL-projects
+# VHDL projects
