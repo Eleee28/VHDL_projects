@@ -36,3 +36,7 @@ Both networks are defined generically for any quantity of numbers (at least powe
 ### Information on implementation (3b)
 
 This consists on modifying Network 2 of 3a to add some registers.
+
+## Lab 4
+
+Lab 4 is about a sequencial divider. It consists on coding an ASM system that implements an algorithm for dividing two numbers.
