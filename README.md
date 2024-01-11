@@ -9,6 +9,9 @@ Implementation of an **encoder** + Simulation file
 Implementation of a system that receives as input 16 2-bit numbers and returns the lowest number. <br>
 It is designed in a structural way, the lowest_num entity consists of 15 cells that are implemented using a **Comparator** and a **Multiplexer**. Simulation files are included.
 
+## Parity Checker
+Implementation of a parity checker for an n-bit number using **xor** operator.
+
 ## Lab 1
 
 Lab 1 consists of an introduction to VHDL and the GUI of Vivado.
