@@ -2,6 +2,12 @@
 
 In this repository you will find several VHDL projects along with simulation and constraint files to test their functionality by simulating them or on a Basys 3 FPGA Board.
 
+## Encoder
+Implementation of an **encoder** + Simulation file
+
+## Lowest number
+Implementation of a system that receives as input 16 2-bit numbers and returns the lowest number. It is designed in a structural way, the lowest_num entity consists of 15 cells that are implemented using a **Comparator** and a **Multiplexer**. Simulation files are included.
+
 ## Lab 1
 
 Lab 1 consists of an introduction to VHDL and the GUI of Vivado.
