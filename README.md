@@ -40,3 +40,32 @@ This consists on modifying Network 2 of 3a to add some registers.
 ## Lab 4
 
 Lab 4 is about a sequencial divider. It consists on coding an ASM system that implements an algorithm for dividing two numbers.
+
+## Final Lab
+
+The final lab is about a microprocessor using a MIPS multicycle implementation. <br>
+The goal is to implement some instructions (move with register, move with immediate and unconditional jump)
+
+### MIPS Instruction Set Architecture
+
+- R-Type instructions: arithmetic-logical
+  - **add** rd, rs, rt : \[ rd <- rs + rt ; PC <- PC + 4 ]
+  - **sub** rd, rs, rt : \[ rd <- rs - rt ; PC <- PC + 4 ]
+  - **and** rd, rs, rt : \[ rd <- rs and rt ; PC <- PC + 4 ]
+  - **or** rd, rs, rt : \[ rd <- rs or rt ; PC <- PC + 4 ]
+  - **nor** rd, rs, rt : \[ rd <- rs nor rt ; PC <- PC + 4 ]
+  - **xor** rd, rs, rt : \[ rd <- rs xor rt ; PC <- PC + 4 ]
+- I-Type instructions: with memory, conditional branch, with immediate
+  - **lw** rt, immed(rs) : \[ rt <- Mem(rs + SignExt(immed)) ; PC <- PC + 4 ]
+  - **sw** rt, immed(rs) : \[ Mem(rs + SignExt(immed)) <- rt ; PC <- PC + 4 ]
+  - **beq** rs, rt, immed : if (rs == rt) then { PC <- PC + 4 + 4*SignExt(immed) } &nbsp; &nbsp; else { PC <- PC + 4 }
+  - **mv** rt, #immed : \[ rt <- SignExt(immed) ; PC <- PC + 4 ]
+  - **mv** rt, rs : \[ rt <- rs ; PC <- PC + 4 ]
+- J-Type instructions: jump (unconditional branches)
+  - j instr : \[ PC <- 0000 & instr & 00 ]
+  
+ 
+
+  
+
+  
