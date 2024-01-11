@@ -62,7 +62,7 @@ The goal is to implement some instructions (move with register, move with immedi
   - **mv** rt, #immed : \[ rt <- SignExt(immed) ; PC <- PC + 4 ]
   - **mv** rt, rs : \[ rt <- rs ; PC <- PC + 4 ]
 - J-Type instructions: jump (unconditional branches)
-  - j instr : \[ PC <- 0000 & instr & 00 ]
+  - **j** instr : \[ PC <- 0000 & instr & 00 ]
   
  
 
