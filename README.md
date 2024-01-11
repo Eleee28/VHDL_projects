@@ -6,13 +6,17 @@ In this repository you will find several VHDL projects along with simulation and
 
 Lab 1 consists of an introduction to VHDL and the GUI of Vivado.
 
-- 1a: 4-bit adder
-- 1b: register with parallel input and parallel output
-- 1c: Mod-16 counter created in a structural way using the modules adder (1a) and register (1b)
+- 1a: Implementation of a **4-bit adder** + Simulation and constraints file
+- 1b: Implementation of a **register with parallel input and parallel output** + Simulation and constraints file
+- 1c: Implementation of a **Mod-16 counter** in a structural way using the modules adder (1a) and register (1b) + Simulation and constraints files
 
 ## Lab 2
 
-Lab 2 consists on the implementation of an 8 bit digital combinational lock as a Finite State Machine (FSM).
+Lab 2 consists on the implementation of an 8 bit digital combinational lock as a Finite State Machine (FSM). <br>
+The project is designed in a structural way using a **Debouncer**, **Decimal to 7-segment converter** (for 7-segment display), **Register**, **Comparator** and **FSM**(lock).
+
+- 2a: First implementation (just one button for setting passwd and guessing)
+- 2b: Second implementation (two buttons, one for setting passwd and other for guessing)
 
 ### Information on implementation (2a)
 
