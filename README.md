@@ -6,7 +6,8 @@ In this repository you will find several VHDL projects along with simulation and
 Implementation of an **encoder** + Simulation file
 
 ## Lowest number
-Implementation of a system that receives as input 16 2-bit numbers and returns the lowest number. It is designed in a structural way, the lowest_num entity consists of 15 cells that are implemented using a **Comparator** and a **Multiplexer**. Simulation files are included.
+Implementation of a system that receives as input 16 2-bit numbers and returns the lowest number. <br>
+It is designed in a structural way, the lowest_num entity consists of 15 cells that are implemented using a **Comparator** and a **Multiplexer**. Simulation files are included.
 
 ## Lab 1
 
